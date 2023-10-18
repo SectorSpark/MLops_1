@@ -22,7 +22,7 @@ stages:
     - scripts/model_scripts/dt.py
     params:
     - train.n_jobs
-    - train.seed
+    - train.fit_intercept
     outs:
     - models/model.pkl
   evaluate:
